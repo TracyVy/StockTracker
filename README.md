@@ -1,4 +1,5 @@
-# Introduction: StockTracker App
+# Introduction: StockTracker 
+```
 
 As a user, when I log into StockTracker, I want to see a snapshot of the stocks I'm monitoring, because it will give me an idea of my financial health.
 
@@ -16,7 +17,23 @@ When the stock is added to My Watchlist, the stock info will be stored and will 
 
 The user will be redirected to the Stock Details page of selected stock. On this page, there is a chart of stock prices and a list of relevant news. The chart is a real-time, minute-by-minute chart during market hours. The news list is indiviually hyper-linked, where the user can click to read news article from independent sources. [See Demo below.](#Demo)
 
+* Clone the project
+* Open terminal -> run command git clone ---url of the project---
+* Open the project with Visual Code.
+* Run npm Install.
+* Documentation - About all the libraries we using inside our project: https://www.npmjs.com/ 
+
+
 ## Built With
+- HTML 5
+- CSS
+- JavaScript.
+- Node.js.
+- MySql - Create local DB.
+- jQuery - Ajax
+- Heroku - JawsDB
+
+#### Heroku : https://app-stocktracker.herokuapp.com/
 
 - Javascript
 - Node.js
@@ -70,7 +87,7 @@ npm passport passport-local
 ```
 npm i sequelize sequelize-cli
 ```
-
+```
 Create a database in MySQL. In this example, `stock_market_db` is used (refer to config.json).
 
 ## Getting Started
